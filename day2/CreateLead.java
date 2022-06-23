@@ -92,6 +92,8 @@ state.selectByVisibleText("New York");
 
 WebElement createLeadButton = driver.findElement(By.className("smallSubmit"));
 createLeadButton.click();
+// Get the Title of the resulting page 
+
 String title =driver.getTitle();
 System.out.println(title);
 }
