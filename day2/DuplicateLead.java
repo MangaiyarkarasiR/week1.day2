@@ -115,7 +115,7 @@ clearFirstName.sendKeys("Magizhan");
 WebElement createLead = driver.findElement(By.className("smallSubmit"));
 createLead.click();
 
-//Get the Resulting Page
+// Get the Title of the resulting page 
 String title2 =driver.getTitle();
 System.out.println(title2);
 
